@@ -1,0 +1,233 @@
+body { 
+	font-family: Arial, sans-serif; 
+	margin: 15px;
+    margin-top: 2px;
+    
+} 
+#data_container{
+    border: 1px solid #2c2c2c;
+}
+.container { 
+	 
+	margin: 0 auto; 
+	padding: 20px; 
+    border: solid black;
+} 
+.about{
+    display: flex;
+    height: 180px;
+    
+}
+.img{
+    border:1px solid #d3d3d3;
+    height: 150px;
+    width: 170px;
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.image{
+    background-color: #ececec;
+    height: 140px;
+    width: 160px;
+    /* margin: 4px 4px 4px 4px; */
+    margin-bottom: 5px;
+    border-radius: 50%;
+    border: solid #ececec;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.image p{
+    padding: 50px;
+    padding-left: 55px;
+    font-size: 15px;
+    color: #d6d6d6;
+}
+.name{
+    height: 160px;
+    width: 450px;
+    margin: 20px 20px 20px 20px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.name h2{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    padding-top: 10px;
+    color: #181818
+}
+.name p{
+    padding-top: 0px;
+    font-size: 13px;
+    font-weight: 400;
+}
+.location{
+    margin-top: 10px;
+    display: flex;
+}
+.location p{
+    padding-left: 8px;
+    font-size: 13px;
+    font-weight: 400;
+   /* border: solid black; */
+   margin-top: 2px;
+}
+.linkedin{
+    margin-top: 0px;
+    /* display: flex; */
+    
+    height: 10px;
+}
+.linkedin p{
+    padding-left: 0px;
+    font-size: 13px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+.linkedin p a{
+    padding-left: 2px;
+    text-decoration: none;
+}
+.name a p span{
+    padding-left: 8px;
+    font-size: 13px;
+    font-weight: 400;
+    padding-right: 2px;
+}
+.name a img{
+    padding-top: 6px;
+}
+
+.container1 a{
+    padding-left: 30px;
+}
+.container1 img{
+    padding-top: 5px;
+}
+.github{
+    padding-left: 5px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 5px;
+    font-size: 13px;
+    font-weight: 500; 
+    color: #181818
+}
+.github img{
+    padding-top: 0px;
+    padding-left: 8px;
+}
+.github span{
+    padding-left: 10px;
+    padding-top: 7px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #181818 ; 
+    font-family: 'Roboto', sans-serif;
+}
+.github a{
+    text-decoration: none;
+}
+.pagination { 
+	text-align: center; 
+	margin-top: 2rem; 
+} 
+
+.pagination a { 
+	color: #007BFF; 
+	padding: 8px 16px; 
+	text-decoration: none; 
+	border: 1px solid #007BFF; 
+	margin: 0 5px; 
+	border-radius: 4px; 
+} 
+
+.pagination a:hover { 
+	background-color: #007BFF; 
+	color: white; 
+} 
+
+.pagination .active { 
+	background-color: #007BFF; 
+	color: white; 
+} 
+
+.card-container { 
+	display: grid; 
+	grid-template-columns: repeat(2, 1fr); 
+	gap: 20px; 
+} 
+
+.card { 
+    border: 1px solid #2c2c2c;
+    margin-top: 8px;
+    margin-left: 13px;
+    height: 115px;
+    width: 610px;
+} 
+.card h3{
+    padding-left: 15px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #0f6fc9;
+    
+    
+}
+.card p{
+    padding-left: 15px;
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #181818;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.button{
+    display: flex;
+
+}
+.button button{
+    margin-left: 15px;
+    margin-top: 10px;
+    background-color: #0c7ce4;
+    border: none;
+    padding: 5px 3px 5px 3px;
+    cursor: pointer;
+    color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card img { 
+	max-width: 100%; 
+	height: auto; 
+	margin-bottom: 10px; 
+	border-radius: 10px; 
+} 
+
+h3 { 
+	margin-top: 10px; 
+	font-size: 18px; 
+	text-transform: capitalize; 
+} 
+
+h1 { 
+	text-align: center; 
+	margin: 2rem; 
+} 
+
+p { 
+	font-size: 14px; 
+} 
+
+#page-numbers { 
+	margin-top: 20px; 
+	font-size: 16px; 
+}
